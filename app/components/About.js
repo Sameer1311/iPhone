@@ -24,7 +24,7 @@ const About = () => {
     <h1 className='font-bold text-4xl mt-10'>Thrill. Sleeker.</h1>
     <p className='text-gray-200 text-center '>The all-new iPad Pro packs astonishing power into an unbelievably thin, light and portable design. Push the limits of what’s possible on iPad with a super-portable 11″ iPad Pro and an expansive 13″ iPad Pro that is <b className='text-white'>the thinnest product Apple has ever created.</b></p>
     <div className='flex h-full my-7'>
-    <Image src={"/iPhone website.png"} width={300} height={700} className='rotate h-full'/>
+    <Image src={"/iPhone website.png"} width={300} height={700} alt='iPhone'  className='rotate h-full'/>
     <h1 className='center text-center text-3xl font-bold'>5.1 mm <br /> <b className='text-xl text-gray-200'>thin and light design</b></h1>
     </div>
     </div>
@@ -32,7 +32,7 @@ const About = () => {
       <h1 className='text-center text-3xl font-bold md:text-6xl'>The world’s most advanced display.
 </h1>
 <div className='w-full h-full my-5 md:w-9/12 '>
-<video src={'/large.mp4'} typeof="vedio" loop autoPlay muted playsInline={true} className='w-full h-full '></video>
+<video src={'/video/large.mp4'} typeof="vedio" loop autoPlay muted playsInline={true}  className='w-full h-full '></video>
 <h4 className='text-center text-sm text-gray-200 my-5 hover:underline cursor-pointer'>Stream Constellation on Apple TV+ </h4>
 <div className='w-full my-8'>
   <p className='mx-4 font-bold text-center text-xl text-gray-200'>The new Ultra Retina XDR display introduces groundbreaking tandem OLED technology. Extreme brightness, incredibly precise contrast and advanced technologies like ProMotion and True Tone give you a <b className='text-white'>jaw-dropping visual experience.</b> And you can use Reference Mode for colour-accurate workflows.</p>

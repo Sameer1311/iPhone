@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Navbar2 from './Navbar2'
 
@@ -5,8 +6,8 @@ const Footer = () => {
   return (
     <footer className=' w-full h-full footercolor'>
     <div className='flex flex-col items-center'>
-    <div className='text-start md:w-4/5 text-sm my-8 flex flex-col gap-y-5 max-md:text-center'>
-    <p>*Listed pricing is Maximum Retail Price (inclusive of all taxes).</p>
+    <div className='text-start md:w-4/5 text-xs font-extralight my-8 flex flex-col gap-y-5 max-md:text-center '>
+    <p className='text-xs'>*Listed pricing is Maximum Retail Price (inclusive of all taxes).</p>
     <p>‡No Cost EMI is available with the purchase of an eligible product made using eligible cards on 3- or 6-month tenures from most leading banks. Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your bank, subject to your bank’s terms and conditions. Minimum order spend applies as per your card-issuing bank threshold. Offer cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Card eligibility is subject to terms and conditions between you and your card-issuing bank. Offer may be revised or withdrawn at any time without any prior notice. Additional terms apply.</p>
     <p>Representative example: Based on a 6-month tenure. ₹79900.00 total cost includes 15% p.a. and No Cost EMI savings of ₹3380.00, paid over 6 months as six monthly payments of ₹13317.00.</p>
     <p>**Apple education pricing is available to current and newly accepted university students, parents buying for university students, and teachers and staff at all levels. For more information, visit <a href="https://www.apple.com/in-edu/store" className='underline font-bold'>apple.com/in-edu/store.</a></p>
@@ -25,7 +26,7 @@ const Footer = () => {
         <li>Wi‑Fi 6E is available in countries and regions where supported. Data plan is required. 5G is available in selected markets and through selected carriers. Speeds vary based on site conditions and carrier. For details on 5G support, contact your carrier and see <a href="https://www.apple.com/in/ipad/cellular/" className='underline font-bold'>apple.com/in/ipad/cellular.</a></li>
     </ul>
     </details>
-    <hr className='border border-black'/>
+    <hr className='border  border-white '/>
     </div>
     <Navbar2/>
     </div>

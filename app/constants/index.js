@@ -1,3 +1,5 @@
+"use client"
+import { useEffect } from "react";
 
 export const highlightslides = [
     {
@@ -8,7 +10,8 @@ export const highlightslides = [
             "GroundBreaking Performance",
         ],
         // video: window.innerWidth <760 ? '/highlight-first.mp4' : '/highlight-first.mp4' ,
-        video: window.innerWidth <760 ? '/smallHero.mp4' : '/highlight-first.mp4',
+        video:'/video/highlight-first.mp4',
+      
         vedioduration: 4
     },
 
@@ -16,7 +19,8 @@ export const highlightslides = [
         id: 2,
         textLists: ["Titanium.", 
             "So strong. So light. So Pro."],
-        video: window.innerWidth <760 ? '/smallHero.mp4' :   '/hightlight-sec.mp4',
+        // video: window.innerWidth <760 ? '/smallHero.mp4' :   '/hightlight-sec.mp4',
+        video:'/video/hightlight-sec.mp4',
         videoDuration: 5,
     },
     {
@@ -26,13 +30,15 @@ export const highlightslides = [
             "longest optical zoom in",
             "iPhone ever. Far out.",
         ],
-        video:  window.innerWidth <760 ? '/smallHero.mp4' :'/hightlight-third.mp4',
+        // video:  window.innerWidth <760 ? '/smallHero.mp4' :'/hightlight-third.mp4',
+        video:'/video/hightlight-third.mp4',
         videoDuration: 2,
     },
     {
         id: 4,
         textLists: ["All-new Action button.", "What will yours do?."],
-        video:  window.innerWidth <760 ? '/hightlight-fourth.mp4' :'/hightlight-fourth.mp4',
+        // video:  window.innerWidth <760 ? '/hightlight-fourth.mp4' :'/hightlight-fourth.mp4',
+        video:'/video/hightlight-fourth.mp4',
         videoDuration: 3.63,
     }
 ];

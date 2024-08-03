@@ -68,8 +68,19 @@ canvas {
  color: transparent;
   }
   
+  .animation{
+    transition: 3s ease ;
+    animation: ease-in-out reverse;
+  }
   .colgap{
-    column-gap: 30px;
+    padding: 2px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    
+  }
+  .colgap:hover{
+    text-decoration: underline;
+    cursor: pointer;
   }
   .footercolor{
     background-color:  rgb(43, 43, 46);;

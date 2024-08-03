@@ -1,13 +1,18 @@
 "use client"
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Link from "next/link"
 
 
 
 const Hero = () => {
-const [vediosrc, setvediosrc] = useState(window.innerWidth <760 ? '/smallHero.mp4' : '/hero.mp4')
+const [vediosrc, setvediosrc] = useState()
+
+useEffect(()=>{
+ setvediosrc(window.innerWidth <760 ? '/video/smallHero.mp4' : '/video/hero.mp4')
+
+},[])
 
   useGSAP(()=>{
     gsap.to('#hero',{
